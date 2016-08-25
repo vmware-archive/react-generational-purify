@@ -1,5 +1,7 @@
 #React Generational Purify
 
+[![Build Status](https://travis-ci.org/pivotal-cf/react-generational-purify.svg?branch=master)](https://travis-ci.org/pivotal-cf/react-generational-purify)
+
 A version of React's [PureRenderMixin](https://facebook.github.io/react/docs/pure-render-mixin.html) for functional components.
 
 For more motivation, check out the React [Advanced Performance Docs](https://facebook.github.io/react/docs/advanced-performance.html).
@@ -31,8 +33,8 @@ const Item = purify(props => <li>{props.position}</li>);
 ```
 ```jsx
 <ul>
-  <Item position="first" key=0/>
-  <Item position="second" key=1/>
+  <Item position="first" key={0}/>
+  <Item position="second" key={1}/>
 </ul>
 ```
 
