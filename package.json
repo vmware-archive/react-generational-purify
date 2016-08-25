@@ -1,0 +1,58 @@
+{
+  "name": "react-generational-purify",
+  "version": "1.0.0",
+  "description": "Purify Function for React for Generational Caching",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pivotal-cf/react-generational-purify.git"
+  },
+  "keywords": [
+    "react",
+    "purify"
+  ],
+  "author": "Pivotal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pivotal-cf/react-generational-purify/issues"
+  },
+  "homepage": "https://github.com/pivotal-cf/react-generational-purify#readme",
+  "dependencies": {
+    "fbjs": "^0.8.4",
+    "invariant": "^2.2.1",
+    "lodash.isfunction": "^3.0.8"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-react-inline-elements": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "del": "^2.2.2",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-react": "^6.1.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-jasmine": "^2.4.0",
+    "gulp-jasmine-browser": "^1.6.0",
+    "gulp-load-plugins": "^1.2.4",
+    "jasmine_dom_matchers": "^1.4.0",
+    "jquery": "^3.1.0",
+    "phantomjs-prebuilt": "^2.1.12",
+    "pivotal-js-react-test-helpers": "0.0.20",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "run-sequence": "^1.2.2",
+    "webpack": "^1.13.2",
+    "webpack-stream": "^3.2.0"
+  }
+}
