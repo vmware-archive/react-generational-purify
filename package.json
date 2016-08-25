@@ -47,6 +47,7 @@
     "gulp-load-plugins": "^1.2.4",
     "jasmine_dom_matchers": "^1.4.0",
     "jquery": "^3.1.0",
+    "npm": "^3.10.6",
     "phantomjs-prebuilt": "^2.1.12",
     "pivotal-js-react-test-helpers": "0.0.20",
     "react": "^15.3.1",
